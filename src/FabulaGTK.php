@@ -6,6 +6,6 @@ class FabulaGTK
 {
 	static public function version()
 	{
-		return "1.0.0";
+		return \Composer\InstalledVersions::getVersion('scorninpc/fabulagtk');
 	}
 }

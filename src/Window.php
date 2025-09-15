@@ -78,7 +78,6 @@ class Window
 				$signal = (string)$value['name'];
 				$handler = (string)$value['handler'];
 
-				var_dump($objectName . " -> " . $signal . " -> " . $handler);
 				$this->getObjectById($objectName)->connect($signal, [$this, $handler]);
 			}
 
